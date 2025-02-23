@@ -1,0 +1,84 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f8f9fa;
+ }
+ 
+ header {
+     background: #333;
+     color: white;
+     padding: 15px;
+     text-align: center;
+ }
+ 
+ nav ul {
+     list-style: none;
+     padding: 0;
+     text-align: center;
+ }
+ 
+ nav ul li {
+     display: inline;
+     margin: 0 15px;
+ }
+ 
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ section {
+     padding: 20px;
+     margin: 20px;
+     background: white;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .product1 {
+     border: 1px solid #ddd;
+     padding: 15px;
+     margin: 10px 0;
+     text-align: center;
+     
+ }
+ .product2 {
+     border: 1px solid #ddd;
+     padding: 15px;
+     margin: 10px 0;
+     text-align: center;
+ }
+
+
+ 
+ button {
+     background: #28a745;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ button:hover {
+     background: #218838;
+ }
+ 
+ form input, form textarea {
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ footer {
+     text-align: center;
+     padding: 10px;
+     background: #333;
+     color: white;
+ }
+ 
